@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 2px solid black;
+}
+
+header > .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+section.cad{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.basic{
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic input{
+    width: 300px;
+    padding: 15px 10px;
+    margin-left: 20px;
+}
+
+section.perfil{
+    width: 100%;
+    height: 61vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.check{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.check label{
+    margin-left: 40px;
+}
+
+.perf{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.perf .imag img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+textarea{
+    resize: none;
+    margin-right: 20px;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.btn input{
+    padding: 20px 5px;
+    width: 250px;
+    margin-right: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    border-top: 2px solid black;
+    text-align: center;
+}
